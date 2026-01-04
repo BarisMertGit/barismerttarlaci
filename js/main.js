@@ -25,8 +25,7 @@ const translations = {
         skillsTitle: 'Core Skills',
 
         // Projects Page
-        projectsTitle: 'My',
-        projectsTitleSpan: 'Projects',
+        projectsTitle: 'My Projects',
         projectsSubtitle: 'A collection of work that showcases my skills, creativity, and passion for building amazing digital experiences.',
         viewCode: 'View Code',
         liveDemo: 'Live Demo',
@@ -40,8 +39,7 @@ const translations = {
         project3Desc: 'Global socio-economic analysis using R programming, implementing K-Means clustering algorithms for data segmentation. Visualizes distinct data patterns through heat maps to interpret complex socio-economic trends.',
 
         // Story Page
-        storyTitle: 'My',
-        storyTitleSpan: 'Journey',
+        storyTitle: 'My Journey',
 
         // Timeline
         timeline1Date: '2021 - Present',
@@ -65,8 +63,7 @@ const translations = {
         timeline4Desc: 'Performed in-depth market research and business analysis to guide operational strategies. Optimized customer relationship management (CRM) processes to improve data accuracy and follow-up efficiency.',
 
         // Contact Page
-        contactTitle: 'Get In',
-        contactTitleSpan: 'Touch',
+        contactTitle: 'Get In Touch',
         contactSubtitle: 'Have a project in mind or just want to say hello? I\'d love to hear from you!',
         formName: 'Your Name',
         formEmail: 'Email Address',
@@ -106,8 +103,7 @@ const translations = {
         skillsTitle: 'Temel Yetenekler',
 
         // Projects Page
-        projectsTitle: '',
-        projectsTitleSpan: 'Projelerim',
+        projectsTitle: 'Projelerim',
         projectsSubtitle: 'Becerilerimi, yaratıcılığımı ve harika dijital deneyimler oluşturma tutkumu sergileyen bir çalışma koleksiyonu.',
         viewCode: 'Kodu Gör',
         liveDemo: 'Canlı Demo',
@@ -121,8 +117,7 @@ const translations = {
         project3Desc: 'R programlama kullanarak küresel sosyo-ekonomik analiz. Veri segmentasyonu için K-Means kümeleme algoritmaları uygular ve ısı haritaları ile veri kalıplarını görselleştirir.',
 
         // Story Page
-        storyTitle: '',
-        storyTitleSpan: 'Yolculuğum',
+        storyTitle: 'Yolculuğum',
 
         // Timeline
         timeline1Date: '2021 - Devam Ediyor',
@@ -146,8 +141,7 @@ const translations = {
         timeline4Desc: 'Operasyonel stratejileri yönlendirmek için derinlemesine pazar araştırması ve iş analizi yaptım. Müşteri ilişkileri yönetimi (CRM) süreçlerini optimize ettim.',
 
         // Contact Page
-        contactTitle: '',
-        contactTitleSpan: 'İletişim',
+        contactTitle: 'İletişim',
         contactSubtitle: 'Aklınızda bir proje mi var yoksa sadece merhaba mı demek istiyorsunuz? Sizden haber almak isterim!',
         formName: 'Adınız',
         formEmail: 'E-posta Adresi',
@@ -214,7 +208,7 @@ function applyLanguage(lang) {
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.dataset.i18n;
-        if (t[key]) {
+        if (key in t) {
             el.textContent = t[key];
         }
     });
