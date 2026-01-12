@@ -20,7 +20,7 @@ const translations = {
         btnDownloadCV: 'Download CV',
         btnViewWork: 'View My Work',
         aboutTitle: 'About Me',
-        aboutText1: 'Management Information Systems student with hands-on experience in software development. I specialize in building complex Genetic Algorithm-based scheduling systems (FastAPI, DEAP, PostgreSQL) to solve NP-Hard optimization problems. Proven ability in customizing and developing Odoo ERP modules.',
+        aboutText1: 'Management Information Systems student with hands-on experience in software development. I am developing my skills in building complex Genetic Algorithm-based scheduling systems (FastAPI, DEAP, PostgreSQL) to solve NP-Hard optimization problems. Continuously improving my abilities in customizing and developing Odoo ERP modules.',
         aboutText2: 'Highly proficient in data analysis, visualization, and database querying using MySQL, R, and Tableau to drive process optimization and support digital transformation. Always eager to learn new technologies.',
         skillsTitle: 'Core Skills',
 
@@ -98,7 +98,7 @@ const translations = {
         btnDownloadCV: 'CV İndir',
         btnViewWork: 'Çalışmalarımı Gör',
         aboutTitle: 'Hakkımda',
-        aboutText1: 'Yazılım geliştirme konusunda uygulamalı deneyime sahip Yönetim Bilişim Sistemleri öğrencisiyim. NP-Hard optimizasyon problemlerini çözmek için karmaşık Genetik Algoritma tabanlı zamanlama sistemleri (FastAPI, DEAP, PostgreSQL) geliştirme konusunda uzmanlaştım.',
+        aboutText1: 'Yazılım geliştirme konusunda uygulamalı deneyime sahip Yönetim Bilişim Sistemleri öğrencisiyim. NP-Hard optimizasyon problemlerini çözmek için karmaşık Genetik Algoritma tabanlı zamanlama sistemleri (FastAPI, DEAP, PostgreSQL) geliştirme konusunda kendimi geliştirmeye çalışıyorum. Ayrıca Odoo ERP modülleri özelleştirme ve geliştirme alanında da aktif olarak öğreniyorum.',
         aboutText2: 'MySQL, R ve Tableau kullanarak veri analizi, görselleştirme ve veritabanı sorgulama konularında yüksek yetkinliğe sahibim. Sürekli yeni teknolojiler öğrenmeye hevesliyim.',
         skillsTitle: 'Temel Yetenekler',
 
