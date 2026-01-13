@@ -9,7 +9,7 @@ const translations = {
         // Navigation
         navHome: 'Home',
         navProjects: 'Projects',
-        navStory: 'My Story',
+        navStory: 'Career',
         navContact: 'Contact',
 
         // Home Page
@@ -39,7 +39,7 @@ const translations = {
         project3Desc: 'Global socio-economic analysis using R programming, implementing K-Means clustering algorithms for data segmentation. Visualizes distinct data patterns through heat maps to interpret complex socio-economic trends.',
 
         // Story Page
-        storyTitle: 'My Journey',
+        storyTitle: 'Career',
 
         // Timeline
         timeline1Date: '2021 - Present',
@@ -86,7 +86,7 @@ const translations = {
         // Navigation
         navHome: 'Ana Sayfa',
         navProjects: 'Projeler',
-        navStory: 'Hikayem',
+        navStory: 'Kariyer',
         navContact: 'İletişim',
 
         // Home Page
@@ -117,7 +117,7 @@ const translations = {
         project3Desc: 'R programlama kullanarak küresel sosyo-ekonomik analiz. Veri segmentasyonu için K-Means kümeleme algoritmaları uygular ve ısı haritaları ile veri kalıplarını görselleştirir.',
 
         // Story Page
-        storyTitle: 'Yolculuğum',
+        storyTitle: 'Kariyer',
 
         // Timeline
         timeline1Date: '2021 - Devam Ediyor',
