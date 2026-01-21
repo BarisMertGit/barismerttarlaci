@@ -47,7 +47,7 @@ const translations = {
         timeline1Subtitle: 'Bachelor of Management of Information Systems (EN)',
         timeline1Desc: 'Studying at İzmir Bakırçay University, focusing on software development, data analysis, and business processes. Working on various projects including genetic algorithm-based scheduling systems and data visualization applications.',
 
-        timeline2Date: '10/2025 - Present',
+        timeline2Date: '10/2025 - 01/2026',
         timeline2Title: 'Intern',
         timeline2Subtitle: 'Ivynet Information Technology Electronics Inc.',
         timeline2Desc: 'Developing and customizing Odoo ERP modules based on business process analysis using Python. Managing and executing data migration from legacy systems to Odoo ERP, ensuring data integrity. Providing technical support and creating user documentation.',
@@ -125,7 +125,7 @@ const translations = {
         timeline1Subtitle: 'YBS Lisans (İngilizce)',
         timeline1Desc: 'İzmir Bakırçay Üniversitesi\'nde yazılım geliştirme, veri analizi ve iş süreçlerine odaklanan eğitim alıyorum. Genetik algoritma tabanlı zamanlama sistemleri ve veri görselleştirme uygulamaları dahil çeşitli projeler üzerinde çalışıyorum.',
 
-        timeline2Date: '10/2025 - Devam Ediyor',
+        timeline2Date: '10/2025 - 01/2026',
         timeline2Title: 'Stajyer',
         timeline2Subtitle: 'Ivynet Bilgi Teknolojileri Elektronik A.Ş.',
         timeline2Desc: 'Python kullanarak iş süreç analizine dayalı Odoo ERP modülleri geliştirip özelleştirdim. Veri bütünlüğünü sağlayarak eski sistemlerden Odoo ERP\'ye veri göçünü yönettim.',
