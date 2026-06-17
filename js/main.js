@@ -15,14 +15,14 @@ const translations = {
         // Home Page
         heroTitle: 'Hello, I\'m',
         heroName: 'Barış',
-        heroRole: 'MIS Student & Software Developer',
-        heroDescription: 'I solve complex problems using Genetic Algorithms, Python, and modern web technologies. Experienced in ERP (Odoo) development, data analysis, and data processing.',
+        heroRole: 'MIS Graduate & Software Developer',
+        heroDescription: 'Management Information Systems graduate with a passion for software development. I specialize in building complex Genetic Algorithm-based scheduling systems (FastAPI, DEAP, PostgreSQL) to solve NP-Hard optimization problems. Experienced in ERP (Odoo) module development, IT troubleshooting & infrastructure support, data analysis with R and Power BI, and driving digital transformation across organizations.',
         btnDownloadCV: 'Download CV',
         btnViewWork: 'View My Work',
         aboutTitle: 'About Me',
-        aboutText1: 'Management Information Systems student with hands-on experience in software development. I am developing my skills in building complex Genetic Algorithm-based scheduling systems (FastAPI, DEAP, PostgreSQL) to solve NP-Hard optimization problems. Continuously improving my abilities in customizing and developing Odoo ERP modules.',
-        aboutText2: 'Highly proficient in data analysis, visualization, and database querying using MySQL, R, and Tableau to drive process optimization and support digital transformation. Always eager to learn new technologies.',
-        skillsTitle: 'Core Skills',
+        aboutText1: 'Management Information Systems graduate with hands-on experience in software development. I specialize in building complex Genetic Algorithm-based scheduling systems (FastAPI, DEAP, PostgreSQL) to solve NP-Hard optimization problems. Experienced in customizing and developing Odoo ERP modules.',
+        aboutText2: 'Highly proficient in IT troubleshooting, data analysis, visualization, and database querying using MySQL, R, Power BI, and Tableau to drive process optimization and support digital transformation.',
+        skillsTitle: 'Key Competencies',
 
         // Projects Page
         projectsTitle: 'My Projects',
@@ -42,25 +42,25 @@ const translations = {
         storyTitle: 'Career',
 
         // Timeline
-        timeline1Date: '2021 - Present',
-        timeline1Title: 'University',
+        timeline1Date: '09/2021 - 06/2026',
+        timeline1Title: 'University (Graduated)',
         timeline1Subtitle: 'Bachelor of Management of Information Systems (EN)',
-        timeline1Desc: 'Studying at İzmir Bakırçay University, focusing on software development, data analysis, and business processes. Working on various projects including genetic algorithm-based scheduling systems and data visualization applications.',
+        timeline1Desc: 'Graduated from İzmir Bakırçay University with a degree in Management Information Systems. Focused on software development, data analysis, and business processes throughout the program. Completed various projects including genetic algorithm-based scheduling systems and data visualization applications.',
 
-        timeline2Date: '10/2025 - 01/2026',
-        timeline2Title: 'Intern',
-        timeline2Subtitle: 'Ivynet Information Technology Electronics Inc.',
-        timeline2Desc: 'Developing and customizing Odoo ERP modules based on business process analysis using Python. Managing and executing data migration from legacy systems to Odoo ERP, ensuring data integrity. Providing technical support and creating user documentation.',
+        timeline2Date: '02/2026 - 05/2026',
+        timeline2Title: 'Technical Support Intern',
+        timeline2Subtitle: 'Enercon Wind Energy Turbine Installation Services Ltd.',
+        timeline2Desc: 'Resolved hardware and software issues, providing IT and network support. Created interactive performance reports using Power BI and Excel for data-driven decision making. Played an active role in IT asset management processes, ensuring the seamless operation of corporate technology infrastructure.',
 
-        timeline3Date: '07/2025 - 10/2025',
-        timeline3Title: 'Intern',
+        timeline3Date: '06/2025 - 02/2026',
+        timeline3Title: 'Software Intern',
         timeline3Subtitle: 'Değer Steel Metal Industry and Trade Inc.',
-        timeline3Desc: 'Utilized Odoo ERP system to streamline sales operations and improve data management. Successfully generated sales by managing the entire sales cycle, from lead engagement to closing deals.',
+        timeline3Desc: 'Developed modules within the Odoo ERP system to automate tracking of industrial equipment, simplifying the digitalization of operational processes. Designed system architecture and back-end solutions to optimize equipment management processes and streamline workflows. Developed software-based tools to increase network infrastructure efficiency and ensure continuity of inter-system integration.',
 
         timeline4Date: '02/2024 - 04/2024',
-        timeline4Title: 'Business Development Assistant',
-        timeline4Subtitle: 'Corecode Technology',
-        timeline4Desc: 'Performed in-depth market research and business analysis to guide operational strategies. Optimized customer relationship management (CRM) processes to improve data accuracy and follow-up efficiency.',
+        timeline4Title: 'Intern',
+        timeline4Subtitle: 'Corede Technology',
+        timeline4Desc: 'Systematically automated CRM and candidate database management to streamline recruitment processes. Conducted comprehensive market research and data analysis to identify new business development opportunities. Enhanced digital productivity company-wide by developing inter-team communication and remote work models.',
 
         // Contact Page
         contactTitle: 'Get In Touch',
@@ -93,14 +93,14 @@ const translations = {
 
         heroTitle: 'Merhaba, ben',
         heroName: 'Barış Mert',
-        heroRole: 'YBS Öğrencisi & Yazılım Geliştirici',
-        heroDescription: 'Genetik Algoritmalar, Python ve modern web teknolojileri kullanarak karmaşık problemlere çözüyorum. ERP(Odoo) geliştirme, veri analizi ve veri işleme konularında deneyimliyim.',
+        heroRole: 'YBS Mezunu & Yazılım Geliştirici',
+        heroDescription: 'Yazılım geliştirme tutkusu ile Yönetim Bilişim Sistemleri mezunuyum. NP-Hard optimizasyon problemlerini çözmek için Genetik Algoritma tabanlı zamanlama sistemleri (FastAPI, DEAP, PostgreSQL) geliştirme konusunda uzmanlaşıyorum. ERP (Odoo) modül geliştirme, BT sorun giderme ve altyapı desteği, R ve Power BI ile veri analizi ve organizasyonlarda dijital dönüşüm konularında deneyimliyim.',
         btnDownloadCV: 'CV İndir',
         btnViewWork: 'Çalışmalarımı Gör',
         aboutTitle: 'Hakkımda',
-        aboutText1: 'Yazılım geliştirme konusunda uygulamalı deneyime sahip Yönetim Bilişim Sistemleri öğrencisiyim. NP-Hard optimizasyon problemlerini çözmek için karmaşık Genetik Algoritma tabanlı zamanlama sistemleri (FastAPI, DEAP, PostgreSQL) geliştirme konusunda kendimi geliştirmeye çalışıyorum. Ayrıca Odoo ERP modülleri özelleştirme ve geliştirme alanında da aktif olarak öğreniyorum.',
-        aboutText2: 'MySQL, R ve Tableau kullanarak veri analizi, görselleştirme ve veritabanı sorgulama konularında yüksek yetkinliğe sahibim. Sürekli yeni teknolojiler öğrenmeye hevesliyim.',
-        skillsTitle: 'Temel Yetenekler',
+        aboutText1: 'Yazılım geliştirme konusunda uygulamalı deneyime sahip Yönetim Bilişim Sistemleri mezunuyum. NP-Hard optimizasyon problemlerini çözmek için karmaşık Genetik Algoritma tabanlı zamanlama sistemleri (FastAPI, DEAP, PostgreSQL) geliştirme konusunda uzmanlaştım. Odoo ERP modülleri özelleştirme ve geliştirme alanında deneyimliyim.',
+        aboutText2: 'BT sorun giderme, MySQL, R, Power BI ve Tableau kullanarak veri analizi, görselleştirme ve veritabanı sorgulama konularında yüksek yetkinliğe sahibim.',
+        skillsTitle: 'Temel Yetkinlikler',
 
         // Projects Page
         projectsTitle: 'Projelerim',
@@ -120,25 +120,25 @@ const translations = {
         storyTitle: 'Kariyer',
 
         // Timeline
-        timeline1Date: '2021 - Devam Ediyor',
-        timeline1Title: 'Üniversite',
+        timeline1Date: '09/2021 - 06/2026',
+        timeline1Title: 'Üniversite (Mezun)',
         timeline1Subtitle: 'YBS Lisans (İngilizce)',
-        timeline1Desc: 'İzmir Bakırçay Üniversitesi\'nde yazılım geliştirme, veri analizi ve iş süreçlerine odaklanan eğitim alıyorum. Genetik algoritma tabanlı zamanlama sistemleri ve veri görselleştirme uygulamaları dahil çeşitli projeler üzerinde çalışıyorum.',
+        timeline1Desc: 'İzmir Bakırçay Üniversitesi Yönetim Bilişim Sistemleri bölümünden mezun oldum. Program boyunca yazılım geliştirme, veri analizi ve iş süreçlerine odaklandım. Genetik algoritma tabanlı zamanlama sistemleri ve veri görselleştirme uygulamaları dahil çeşitli projeleri tamamladım.',
 
-        timeline2Date: '10/2025 - 01/2026',
-        timeline2Title: 'Stajyer',
-        timeline2Subtitle: 'Ivynet Bilgi Teknolojileri Elektronik A.Ş.',
-        timeline2Desc: 'Python kullanarak iş süreç analizine dayalı Odoo ERP modülleri geliştirip özelleştirdim. Veri bütünlüğünü sağlayarak eski sistemlerden Odoo ERP\'ye veri göçünü yönettim.',
+        timeline2Date: '02/2026 - 05/2026',
+        timeline2Title: 'Teknik Destek Stajyeri',
+        timeline2Subtitle: 'Enercon Rüzgar Enerji Santrali Kurulum Hizmetleri Ltd.',
+        timeline2Desc: 'Donanım ve yazılım sorunlarını gidererek BT ve ağ desteği sağladım. Power BI ve Excel kullanarak veri analitiğine dayalı etkileşimli performans raporları oluşturdum. BT varlık yönetimi süreçlerinde aktif rol alarak kurumsal teknoloji altyapısının kesintisiz çalışmasına katkı sağladım.',
 
-        timeline3Date: '07/2025 - 10/2025',
-        timeline3Title: 'Stajyer',
+        timeline3Date: '06/2025 - 02/2026',
+        timeline3Title: 'Yazılım Stajyeri',
         timeline3Subtitle: 'Değer Çelik Metal Sanayi ve Ticaret A.Ş.',
-        timeline3Desc: 'Satış operasyonlarını düzene sokmak ve veri yönetimini iyileştirmek için Odoo ERP sistemini kullandım. Tüm satış döngüsünü yöneterek başarılı satışlar gerçekleştirdim.',
+        timeline3Desc: 'Odoo ERP sistemi içinde endüstriyel ekipmanların takibini otomatikleştiren modüller geliştirerek, operasyonel süreçlerin dijitalleşmesini kolaylaştırdım. Sistem mimarisi ve arka uç çözümleri, ekipman yönetimi süreçlerini optimize etmek ve iş akışlarını kolaylaştırmak üzere tasarlandı. Ağ altyapısının verimliliğini artırmak ve sistemler arası entegrasyonun sürekliliğini sağlamak amacıyla yazılım tabanlı araçlar geliştirildi.',
 
         timeline4Date: '02/2024 - 04/2024',
-        timeline4Title: 'İş Geliştirme Asistanı',
-        timeline4Subtitle: 'Corecode Technology',
-        timeline4Desc: 'Operasyonel stratejileri yönlendirmek için derinlemesine pazar araştırması ve iş analizi yaptım. Müşteri ilişkileri yönetimi (CRM) süreçlerini optimize ettim.',
+        timeline4Title: 'Stajyer',
+        timeline4Subtitle: 'Corede Technology',
+        timeline4Desc: 'CRM ve aday veri tabanı yönetilerek işe alım süreçleri sistematik olarak otomatik hale getirildi. Pazar araştırması ve veri analizi yapılarak yeni iş geliştirme fırsatları kapsamlı şekilde belirlendi. Ekipler arası iletişim ve uzaktan çalışma modelleri geliştirilerek şirket genelinde dijital verimlilik artırıldı.',
 
         // Contact Page
         contactTitle: 'İletişim',
