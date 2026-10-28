@@ -884,7 +884,7 @@ body {
 
 /* Location Card */
 .location-card {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1.5rem;
     background: var(--color-bg-secondary);
     border: 1px solid var(--color-border);
@@ -901,4 +901,103 @@ body {
     color: var(--color-text-secondary);
     font-size: 0.85rem;
     margin: 0;
+}
+
+/* Contact Details Grid */
+.contact-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* ===== Project Date Badge ===== */
+.project-date {
+    display: inline-block;
+    color: var(--color-text-secondary);
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg-card);
+}
+
+/* ===== Certificates Section ===== */
+.certificates-section {
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1.5rem;
+}
+
+@media (max-width: 400px) {
+    .certificates-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.certificate-card {
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    transition: var(--transition-medium);
+}
+
+.certificate-card:hover {
+    border-color: var(--color-text-secondary);
+    transform: translateY(-3px);
+}
+
+.certificate-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+}
+
+.certificate-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.certificate-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: 0.35rem;
+    letter-spacing: -0.02em;
+}
+
+.certificate-issuer {
+    color: var(--color-text-secondary);
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.certificate-date {
+    display: inline-block;
+    color: var(--color-text-secondary);
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg-card);
 }
